@@ -26,12 +26,12 @@
                     <td>{{i.price}}</td>
                     <td *ngIf="i.availability">
                         <div class="alert alert-danger" role="alert">
-                            true
+                            Available
                         </div>
                         </td>
                         <td *ngIf="! i.availability">
                             <div class="alert alert-success" role="alert">
-                                false
+                                Not Available
                             </div>
                         </td>
                     
